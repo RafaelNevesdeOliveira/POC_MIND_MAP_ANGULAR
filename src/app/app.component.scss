@@ -39,3 +39,35 @@ button {
 .node-title.has-children:hover {
   color: #666;
 }
+
+.node-box {
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+  max-width: 150px;
+  user-select: none;
+}
+
+.node-title {
+  color: #000;
+  pointer-events: none;
+}
+
+.node-title.has-children {
+  pointer-events: auto;
+  transition: color 0.2s;
+}
+
+.node-title.has-children.hover {
+  color: #666;
+  cursor: pointer;
+}
+
+.access-btn {
+  color: #e00;
+  margin-top: 6px;
+  cursor: pointer;
+}

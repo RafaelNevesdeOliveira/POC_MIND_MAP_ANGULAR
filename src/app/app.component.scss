@@ -1,0 +1,41 @@
+#cyContainer {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  background-color: #e00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.cy-node {
+  cursor: pointer;
+}
+
+.access-btn {
+  color: #e00;
+  margin-top: 6px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #ff6666;
+  }
+}
+
+.node-title.has-children {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.node-title.has-children:hover {
+  color: #666;
+}
